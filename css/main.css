@@ -213,6 +213,13 @@ p {
   height: 47px;
   border-bottom: 7px solid #003399; }
 
+.logo {
+  position: relative; }
+  .logo img {
+    position: absolute;
+    top: -50px;
+    left: -25px; }
+
 .nav li {
   list-style: none;
   float: left; }
@@ -252,7 +259,7 @@ p {
       font-weight: bold;
       color: white; }
   .highlight img {
-    margin: 10px 0 20px 0; }
+    margin: 10px 0 10px 0; }
   .highlight a {
     padding: 10px 20px 5px 20px;
     font-size: 25px;
@@ -276,10 +283,14 @@ p {
       background-image: -o-linear-gradient(top, #00cc2b, #008e1e);
       background-image: linear-gradient(to bottom, #00cc2b, #008e1e);
       background-repeat: repeat-x;
-      border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); }
+      border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+      left: 80px; }
       .highlight a.donate:hover {
         background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#00a022), to(#008e1e));
         background-image: -webkit-linear-gradient(top, #00a022, #008e1e); }
+    .highlight a.history {
+      left: auto;
+      right: 24px; }
 
 .details {
   margin-top: 10px; }
