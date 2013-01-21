@@ -341,3 +341,9 @@ label {
 .contact .primary-link {
   position: relative;
   margin-top: 30px; }
+
+.about .highlight {
+  height: auto;
+  padding-top: 50px; }
+.about h2 {
+  margin-left: 70px; }
