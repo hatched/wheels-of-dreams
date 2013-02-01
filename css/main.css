@@ -193,6 +193,11 @@ h2 {
   font-family: 'Lobster', sans-serif;
   font-size: 35px; }
 
+h3 {
+  color: white;
+  font-family: 'Lobster', sans-serif;
+  font-size: 20px; }
+
 p {
   font-size: 12px;
   color: #afafaf; }
@@ -338,3 +343,21 @@ label {
   padding-top: 50px; }
 .secondary h2 {
   margin-left: 70px; }
+
+.about h3 {
+  margin-top: 20px;
+  margin-bottom: 10px; }
+  .about h3.signature {
+    text-align: right;
+    padding-right: 200px; }
+.about img {
+  margin-left: -30px; }
+.about p {
+  margin: 0 50px 10px 50px;
+  line-height: 18px;
+  font-size: 14px; }
+  .about p a {
+    font-weight: bold; }
+  .about p img {
+    float: right;
+    margin-left: 15px; }
