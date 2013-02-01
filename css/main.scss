@@ -64,6 +64,12 @@ h2 {
     font-size: 35px;
 }
 
+h3 {
+    color: white;
+    font-family: 'Lobster', sans-serif;
+    font-size: 20px;
+}
+
 p {
     font-size: 12px;
     color: $light-grey;
@@ -144,7 +150,6 @@ label {
     }
     &.blue {
         box-shadow: inset 0 0 150px rgba(0, 51, 153, 0.5);
-        margin-top: 11px;
         @include solid-border($primary-blue);
     }
     li {
@@ -204,6 +209,7 @@ label {
     margin-top: $default-top-margin;
     .highlight {
         &.blue {
+            margin-top: 11px;
             background-color: rgba(0, 51, 153, 0.2);
             li {
                 color: #7E9EE0;
@@ -224,27 +230,44 @@ label {
 }
 
 .contact {
-    .highlight {
-        height: auto;
-        &.contact-form {
-            padding-top: 50px;
-            h2 {
-                margin-left: 70px;
-            }
-        }
-    }
     .primary-link {
         position: relative;
         margin-top: 30px
     }
 }
 
-.about {
+.secondary {
     .highlight {
         height: auto;
         padding-top: 50px;
     }
     h2 {
         margin-left: 70px;
+    }
+}
+
+.about {
+    h3 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        &.signature {
+            text-align: right;
+            padding-right: 200px;
+        }
+    }
+    img {
+        margin-left: -30px;
+    }
+    p {
+        margin: 0 50px 10px 50px;
+        line-height: 18px;
+        font-size: 14px;
+        a {
+            font-weight: bold;
+        }
+        img {
+            float: right;
+            margin-left: 15px;
+        }
     }
 }
