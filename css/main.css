@@ -266,7 +266,6 @@ label {
     height: 713px; }
   .highlight.blue {
     box-shadow: inset 0 0 150px rgba(0, 51, 153, 0.5);
-    margin-top: 11px;
     border: 1px solid #003399; }
   .highlight li {
     font-size: 12px;
@@ -316,6 +315,7 @@ label {
 .details {
   margin-top: 10px; }
   .details .highlight.blue {
+    margin-top: 11px;
     background-color: rgba(0, 51, 153, 0.2); }
     .details .highlight.blue li {
       color: #7E9EE0; }
@@ -329,18 +329,12 @@ label {
       font-size: 13px;
       font-weight: bold; }
 
-.contact .highlight {
-  height: auto; }
-  .contact .highlight.contact-form {
-    padding-top: 50px; }
-    .contact .highlight.contact-form h2 {
-      margin-left: 70px; }
 .contact .primary-link {
   position: relative;
   margin-top: 30px; }
 
-.about .highlight {
+.secondary .highlight {
   height: auto;
   padding-top: 50px; }
-.about h2 {
+.secondary h2 {
   margin-left: 70px; }
