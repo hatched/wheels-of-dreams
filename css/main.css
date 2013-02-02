@@ -184,6 +184,9 @@ body, html {
   background: url("../images/dirty-old-shirt.png");
   font-family: Arial, Helvetica, sans-serif; }
 
+body {
+  padding-bottom: 50px; }
+
 a {
   text-decoration: none;
   color: white; }
@@ -334,6 +337,17 @@ label {
       font-size: 13px;
       font-weight: bold; }
 
+.footer {
+  font-size: 13px;
+  margin-top: 25px;
+  color: white; }
+  .footer li {
+    list-style: none;
+    padding: 0 20px;
+    float: left;
+    height: 30px;
+    line-height: 30px; }
+
 .contact .primary-link {
   position: relative;
   margin-top: 30px; }
@@ -361,3 +375,6 @@ label {
   .about p img {
     float: right;
     margin-left: 15px; }
+
+.donate .push {
+  margin-top: 25px; }
