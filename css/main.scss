@@ -185,7 +185,7 @@ label {
     box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.7);
     color: white;
     border: none;
-    &.donate {
+    &.donatelink {
         background-color: #009919;
         font-size: 35px;
         padding: 15px 25px 10px 25px;
@@ -290,7 +290,22 @@ label {
     }
 }
 
-.donate{
+.donate {
+    p {
+        margin: 0 50px 10px 50px;
+        line-height: 18px;
+        font-size: 14px;
+    }
+    img {
+        margin-left: 50px;
+    }
+    .donatelink {
+        position: relative;
+        left: auto;
+        bottom: auto;
+        margin-left: 50px;
+        line-height: 75px;
+    }
     .push {
         margin-top: 25px;
     }

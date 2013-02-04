@@ -300,7 +300,7 @@ label {
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.7);
   color: white;
   border: none; }
-  .primary-link.donate {
+  .primary-link.donatelink {
     background-color: #009919;
     font-size: 35px;
     padding: 15px 25px 10px 25px;
@@ -313,7 +313,7 @@ label {
     background-repeat: repeat-x;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
     left: 80px; }
-    .primary-link.donate:hover {
+    .primary-link.donatelink:hover {
       background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#00a022), to(#008e1e));
       background-image: -webkit-linear-gradient(top, #00a022, #008e1e); }
   .primary-link.history {
@@ -376,5 +376,17 @@ label {
     float: right;
     margin-left: 15px; }
 
+.donate p {
+  margin: 0 50px 10px 50px;
+  line-height: 18px;
+  font-size: 14px; }
+.donate img {
+  margin-left: 50px; }
+.donate .donatelink {
+  position: relative;
+  left: auto;
+  bottom: auto;
+  margin-left: 50px;
+  line-height: 75px; }
 .donate .push {
   margin-top: 25px; }
