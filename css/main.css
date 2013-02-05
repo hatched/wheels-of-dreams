@@ -325,8 +325,11 @@ label {
   .details .highlight.blue {
     margin-top: 11px;
     background-color: rgba(0, 51, 153, 0.2); }
-    .details .highlight.blue li {
-      color: #7E9EE0; }
+    .details .highlight.blue li p {
+      color: #7E9EE0;
+      margin: 10px 0; }
+    .details .highlight.blue li a {
+      font-weight: bold; }
   .details .highlight li {
     font-size: 12px;
     color: #afafaf;
